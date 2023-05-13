@@ -12,7 +12,7 @@ public class Catalog {
     public void addItem(Item item) {
         items.add(item);
     }
-    
+    // display all items 
     public void display() {
         for (Item item : items) {
             i++;
