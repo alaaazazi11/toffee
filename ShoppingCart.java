@@ -10,7 +10,7 @@ public class ShoppingCart {
     public ShoppingCart() {
         items = new HashMap<Item, Integer>();
     }
-    
+    // add items
     public void addItem(Item item, int quantity) {
         if (items.containsKey(item)) {
             items.put(item, items.get(item) + quantity);
